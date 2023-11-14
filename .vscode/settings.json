@@ -1,0 +1,31 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx.base.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx.controls.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx.fxml.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx.graphics.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx.media.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx.swing.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx.web.jar",
+        "c:\\Java\\javafx-sdk-21.0.1\\lib\\javafx-swt.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx-swt.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx.base.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx.controls.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx.fxml.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx.graphics.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx.media.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx.swing.jar",
+        "/Users/ira/Codes/Java/javafx-sdk-21.0.1/lib/javafx.web.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx-swt.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx.base.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx.controls.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx.fxml.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx.graphics.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx.media.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx.swing.jar",
+        "/Users/ira/Codes/javafx-sdk-21.0.1/lib/javafx.web.jar"
+    ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #afe5ec;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeSceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DEEPSKYBLUE" height="62.0" stroke="BLACK" strokeType="INSIDE" width="700.0" />
+      <Text fx:id="welcomeText" layoutX="40.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="Welcome Back User" textAlignment="CENTER" wrappingWidth="620.5367202758789">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="searchField" layoutX="198.0" layoutY="202.0" prefHeight="26.0" prefWidth="290.0" promptText="Title, Author, ISBN Code" style="-fx-border-color: black;" />
+      <Button fx:id="searchButton" layoutX="324.0" layoutY="238.0" mnemonicParsing="false" onAction="#searchAction" style="-fx-background-color: #00bfff; -fx-border-color: black;" text="Search" />
+      <Text layoutX="198.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-underline: true;" text="Search Our Books: " wrappingWidth="218.39993286132812">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="576.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="98.13671875" />
+      <Button fx:id="HometoLoginBtn" layoutX="26.0" layoutY="18.0" mnemonicParsing="false" onAction="#goToLogin" text=" Back To Login" />
+      <Button fx:id="userProfilebtn" layoutX="263.0" layoutY="324.0" mnemonicParsing="false" onAction="#goToProfile" prefHeight="62.0" prefWidth="174.0" style="-fx-background-color: #00bfff; -fx-border-color: black;" text="View Library Profile" />
+   </children>
+</AnchorPane>
